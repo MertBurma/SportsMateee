@@ -1,0 +1,52 @@
+.Event {
+  width: 1350px;
+  height: 300px;
+
+  box-shadow: 0px 1px 11px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 11px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 11px -1px rgba(0, 0, 0, 0.75);
+}
+.popupTitle {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+.inputWrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+.inputsLeft {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.inputsRight {
+  margin-top: 15px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.input {
+  margin-top: 10px;
+}
+
+.inputDesc {
+  height: 500px;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.kapat {
+  margin-top: 5px;
+  width: 210px;
+}
+icon {
+  height: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

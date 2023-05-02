@@ -1,0 +1,26 @@
+
+.single-user-list {
+  display: flex;
+  width: 700px;
+  flex-direction: row;
+  margin-bottom: 15px;
+  padding: 20px 0 20px 0;
+  justify-content: space-between;
+}
+
+.user-list-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 15px;
+}
+
+.user-list-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+.single {
+  margin-left: 5px;
+}

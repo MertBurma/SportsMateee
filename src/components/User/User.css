@@ -1,0 +1,13 @@
+.user-wrapper {
+  margin-left: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  cursor: pointer;
+  width: 15vw;
+}
+
+.user-detail {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

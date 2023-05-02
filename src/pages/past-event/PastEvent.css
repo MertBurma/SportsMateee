@@ -1,0 +1,29 @@
+.cardPastEvent{
+    margin-top: 50px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 200px 360px 360px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+.cardPastEvent > div {
+    padding: 8px;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+}
+.iconss{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+}
+.uyarı{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+    text-align:center;
+}

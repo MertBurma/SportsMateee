@@ -1,0 +1,202 @@
+.container{
+    display: flex;
+     justify-content: space-evenly;
+     margin: 25px;
+ }
+ .container-left{
+     display: flex;
+     margin-left: 150px;
+     flex-direction: column;
+ }
+ .container-right{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-left: 150px;
+ }
+ .input {
+     display: flex;
+     width: 200px;
+     border: none;
+     background: transparent;
+     align-items: center;
+ }
+ .dadd {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ .item{
+     display: flex;
+     margin-bottom: 10px;
+ }
+ .icons{
+     margin-right: 5px;
+ }
+ .butonn{
+     margin-top: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .profil {
+     flex: 4;
+     padding: 20px;
+ }
+ .profil-title {
+     letter-spacing: 2px;
+ }
+ 
+ .profil-title-container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+ .profil-container {
+     display: flex;
+     margin-top: 20px;
+ 
+ }
+ .profil-show {
+     flex: 1;
+     padding: 20px;
+     -webkit-box-shadow: 0px 0px 15px -10px;
+     box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+ 
+ }
+ 
+ .profil-update {
+     flex: 2;
+     padding: 20px;
+     -webkit-box-shadow: 0px 0px 15px -10px;
+     box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+     margin-left: 20px;
+ }
+ .profil-show-top{
+     display: flex;
+     align-items: center;
+ 
+ }
+ .profil-show-img{
+     width: 40px;
+     height: 40px;
+     border-radius: 50%;
+     object-fit: cover;
+ 
+ }
+ .profil-show-top-title {
+     display: flex;
+     flex-direction: column;
+     margin-left: 20px;
+ }
+ .profil-show-username {
+     font-weight: 600;
+ 
+ }
+ .profil-show-title {
+     font-weight: 300;
+ }
+ .profil-show-title {
+     font-size: 14px;
+     font-weight: 600;
+     color: rgb(175,170,170);
+ }
+ .profil-show-bottom {
+     margin-top: 20px;
+ 
+ }
+ .profil-show-info {
+     margin: 20px 0px;
+     display: flex;
+     align-items: center;
+     margin-right: 20px;
+     color: #444;
+ 
+ }
+ .profil-show-icon {
+     font-size: 16px !important;
+ 
+ }
+ .profil-show-info-table {
+     margin-left: 10px;
+ }
+ .user-update-img {
+     width: 100px;
+     height: 100px;
+     border-radius: 10px;
+     object-fit: cover;
+     margin-right: 20px;
+ 
+ }
+ .profil-update-form {
+     display: flex;
+     justify-content: space-between;
+     margin-top: 20px;
+ 
+ }
+ .profil-update-title {
+     font-size:24px ;
+     font-weight: 600;
+ }
+ .profil-update-item {
+     display: flex;
+     flex-direction: column;
+     margin-top: 10px;
+ 
+ }
+ .profil-update-item > label {
+     margin-bottom: 5px;
+     font-size: 14px;
+ 
+ }
+ .profil-update-input {
+     border: none;
+     height: 30px;
+     border-bottom: 1px solid lightslategray;
+     width: 250px;
+ 
+ }
+ .profil-update-right {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ 
+ 
+ }
+ .profil-update-upload {
+     display: flex;
+     align-items: center;
+     cursor: pointer;
+ 
+ }
+ .user-update-icon {
+     cursor: pointer;
+ 
+ }
+ .profile-update-button {
+     border-radius: 5px;
+     border: none;
+     padding: 5px;
+     cursor: pointer;
+     background-color: darkblue;
+     color: whitesmoke;
+     font-weight: bolder;
+ }
+ .fotoyükleme{
+     text-decoration: none;
+     border: none;
+     text-underline: none;
+     text-decoration: none;
+     display: none;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     outline: none;
+ }
+ .profilePic {
+     width: 60%;
+     display: flex;
+     align-items: center;
+     padding: 20px;
+ }

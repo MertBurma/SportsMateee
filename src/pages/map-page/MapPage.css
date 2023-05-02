@@ -1,0 +1,22 @@
+.map{
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:100%;
+
+}
+
+.description{
+    font-size: 14px;
+}
+.username{
+    font-size: 14px;
+
+}
+.date {
+    font-size: 12px;
+}
+
+.popup-menu {
+    border-radius: 200px !important;
+}

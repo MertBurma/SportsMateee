@@ -1,0 +1,45 @@
+.others {
+
+
+  align-items: center;
+  justify-content: center;
+
+}
+.loading{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.butonlar{
+  margin-right: 15px;
+}
+.text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.puan{
+  height: 25px;
+  width: 25px;
+  font-size: large;
+}
+.result{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px;
+}
+.button {
+
+  display: flex;
+  margin-left: 50px;
+  margin-bottom: 15px;
+
+
+}
+.FindFriends{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

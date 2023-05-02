@@ -1,0 +1,14 @@
+.events {
+
+    display: flex;
+    justify-content: center;
+    margin-left: 75px;
+    margin-top: 25px;
+
+
+
+}
+.info{
+    display: flex;
+    align-items: center;
+}

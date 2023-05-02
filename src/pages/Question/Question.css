@@ -1,0 +1,16 @@
+.parent {
+  margin-top: 50px;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 360px 360px 360px;
+  grid-template-rows: 200px 360px 360px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 100px;
+}
+.parent > div {
+  padding: 8px;
+  border-radius: 5px;
+  display: grid;
+  place-items: center;
+}
